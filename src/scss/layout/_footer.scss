@@ -1,0 +1,16 @@
+.footer {
+  font-size: 24px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .container {
+    &__info {
+      font-size: inherit;
+    }
+  }
+}
